@@ -14,7 +14,7 @@ int main()
         cfg.windowSize = { 1280, 720 };
         cfg.fpsLimit = 120;
 
-        eng::Application app(cfg);
+        eng::Application app( cfg);
         app.Scenes().Set(std::make_unique<MenuScene>(), app);
         app.Run();
         return 0;
