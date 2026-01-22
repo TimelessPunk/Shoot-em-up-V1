@@ -1,6 +1,5 @@
 ﻿#pragma once
 
-#include "Engine/Scene.hpp"
 
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Text.hpp>
@@ -9,6 +8,7 @@
 
 #include <optional>
 #include <array>
+#include "Player.hpp"
 
 class MenuScene : public eng::Scene
 {
